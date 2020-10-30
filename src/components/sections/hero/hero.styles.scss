@@ -12,9 +12,10 @@
     text-align: center;
     h1.name {
       font-family: 'Sacramento', cursive;
-      color: $mainAccentColor;
       font-size: 5rem;
+      color: $mainAccentColor;
       font-weight: normal;
+      text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.699);
       margin-bottom: -1rem;
     }
   }
