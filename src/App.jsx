@@ -1,12 +1,18 @@
 import './App.css';
 import React from 'react';
 
+// sections
+import Hero from './components/sections/hero/hero.component';
+
 function App() {
-  return (
-    <div className="App">
-      <h1>Why Hello There</h1>
-    </div>
-  );
+  const x = 'hi';
+
+  if (x)
+    return (
+      <div className="App">
+        <Hero />
+      </div>
+    );
 }
 
 export default App;
